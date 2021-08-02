@@ -1,6 +1,6 @@
 # DemoDict.py
 
-d=dict(a=1, b=2, c=3)
+d = dict(a=1, b=2, c=3)
 print(type(d))
 print(d)
 
@@ -10,17 +10,19 @@ print(len(color))
 print(color["apple"])
 
 #입력
-color["cherry"]="red"
+color["cherry"] = "red"
 print(color)
+
 #삭제
 del color["apple"]
 print(color)
 
+#All Delete
 color.clear()
 print(color)
 
 #장비를 관리한다.
-device = {"아이폰":10, "아이패드":15, "윈도우":20}
+device = {"아이폰": 10, "아이패드": 15, "윈도우": 20}
 print(len(device))
 print(type(device))
 
@@ -29,4 +31,18 @@ print(type(device))
 for item in device.items():
     print(item)
 for k, y in device.items():
-    print(k ,y)
+    print(k, y)
+
+#입력
+device["맥프레"] = 30
+print(device)
+
+#삭제
+del device["아이폰"]
+print(device)
+
+#수정
+device["맥프레"] = 15
+print(device)
+
+# print(device[0]) Error가 난다

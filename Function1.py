@@ -28,3 +28,21 @@ def intersect(prelist, postlist):
 
 #호출
 print(intersect("HAM", "SPAM"))
+
+#불변형식과 가변형식
+a = 1.2
+print(id(a))
+a = 2.3
+print(id(a))
+
+#객체는 참조를 통해 입출력이 된다
+wordlist=["J", "A", "M"]
+#함수정의
+def change(x):
+    x1 = x[:]
+    x1[0]="H"
+    print("함수내부:", x1)
+
+#함수호출
+change(wordlist)
+print("함수 호출후 :", wordlist)

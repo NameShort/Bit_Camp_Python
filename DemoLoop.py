@@ -22,3 +22,7 @@ print(list(range(10, 0, -1)))
 #수동으로 루프를 돌리는 경우
 for i  in range(5):
     print(i)
+
+# 이름 규칙:
+# 1. 클래스명: DemoProduct(파스칼 표기법)
+# 2. 변수명, 메서드명, 함숨ㅇ: getBiggerThan20(카멜 표기법)

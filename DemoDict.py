@@ -45,4 +45,4 @@ print(device)
 device["맥프레"] = 15
 print(device)
 
-# print(device[0]) Error가 난다
+# print(device[0]) Error가 난다.

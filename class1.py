@@ -7,4 +7,8 @@ class Person:
 
 #인스턴스 생성
 p1=Person()
+p2=Person()
+p1.name="NameShort"
+
 p1.print()
+p2.print()
